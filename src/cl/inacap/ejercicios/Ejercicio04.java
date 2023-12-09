@@ -6,7 +6,7 @@ public class Ejercicio04 {
 		System.out.println("Ingrese el monto de la venta:");
 		int precioVenta = Integer.parseInt(sc.nextLine()); //Se lee un String, se convierte a Double y se almacena en la variable.
 		
-		if (precioVenta > 300000) { //Se evalua la condiciÛn.
+		if (precioVenta > 300000) { //Se evalua la condici√≥n.
 			double precioDescuento = precioVenta * 0.90;
 			System.out.println("El precio final de la venta con el iva es: " + precioDescuento * 1.19);
 		}

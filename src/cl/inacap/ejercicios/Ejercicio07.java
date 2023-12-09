@@ -7,6 +7,6 @@ public class Ejercicio07 {
 		double horasAcademicas = Double.parseDouble(sc.nextLine()); //Se lee un double.
 		double minutosAcademicos = horasAcademicas * 45; //Se lee un double.
 		double horasReales = minutosAcademicos / 60; //Se lee un double.
-		System.out.println("La cantidad de horas reales es: " + horasReales); //Se imprime en consola la concatenación.
+		System.out.println("La cantidad de horas reales es: " + horasReales); //Se imprime en consola la concatenaciÃ³n.
 	}
 }

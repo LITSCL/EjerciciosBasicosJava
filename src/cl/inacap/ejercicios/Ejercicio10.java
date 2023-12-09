@@ -9,7 +9,7 @@ public class Ejercicio10 {
 			contador++; //La variable aumenta en una unidad.
 			suma = suma + contador; //En esta variable se va almacenando el resultado de las sumas.
 		}
-		System.out.println("La suma de los primeros 100 numeros naturales es: " + suma); //Se imprime en consola la concatenación.
+		System.out.println("La suma de los primeros 100 numeros naturales es: " + suma); //Se imprime en consola la concatenaciÃ³n.
 
 	}
 

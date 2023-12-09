@@ -6,7 +6,7 @@ public class Ejercicio06 {
 		System.out.println("Ingrese el precio de la venta:");
 		double precioVenta = Double.parseDouble(sc.nextLine()); //Se lee un double.
 		
-		if (precioVenta > 500000) { //Se eval˙a la condiciÛn.
+		if (precioVenta > 500000) { //Se eval√∫a la condici√≥n.
 			precioVenta = precioVenta * 0.90;
 		}
 		else {
@@ -15,7 +15,7 @@ public class Ejercicio06 {
 		
 		precioVenta = precioVenta * 1.19;
 		
-		System.out.println("El precio de la venta con el IVA incluido es: " + precioVenta); //Se imprime en consola la concatenaciÛn.
+		System.out.println("El precio de la venta con el IVA incluido es: " + precioVenta); //Se imprime en consola la concatenaci√≥n.
 	}
 
 }

@@ -9,14 +9,14 @@ public class Ejercicio03 {
 		System.out.println("Ingrese el segundo numero");
 		int numero2 = Integer.parseInt(sc.nextLine()); //Se lee un String, se convierte a int  y se almacena en la variable.
 		
-		if (numero1 > numero2) { //Se eval˙a la condiciÛn.
+		if (numero1 > numero2) { //Se eval√∫a la condici√≥n.
 			System.out.println("El primer numero que ingresaste es mayor que el segundo");
 		}
-		else if (numero1 < numero2){//Si la condiciÛn anterior no se cumpliÛ, se eval˙a esta condiciÛn, de ser correcta imprime su contenido e ignora las siguientes condiciones.
+		else if (numero1 < numero2) {//Si la condici√≥n anterior no se cumpli√≥, se eval√∫a esta condici√≥n, de ser correcta imprime su contenido e ignora las siguientes condiciones.
 			System.out.println("El segundo numero que ingresaste es mayor que el primero"); 
 		}
 		else {
-			System.out.println("Ambos numeros son iguales"); //Si ninguna condiciÛn se cumplio se imprime el contenido del else.
+			System.out.println("Ambos numeros son iguales"); //Si ninguna condici√≥n se cumplio se imprime el contenido del else.
 		}
 
 	}

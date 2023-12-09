@@ -6,13 +6,13 @@ public class Ejercicio05 {
 		System.out.println("Ingrese un numero:");
 		int numero = Integer.parseInt(sc.nextLine());
 		
-		if (numero < 0) { //Si la condición se cumple, imprime el contenido e ignora las demás condiciones.
+		if (numero < 0) { //Si la condiciÃ³n se cumple, imprime el contenido e ignora las demÃ¡s condiciones.
 			System.out.println("El numero es negativo");
 		}
-		else if (numero == 0) { //Si la condición anterior no se cumplió, se evalúa esta condición, de ser correcta imprime su contenido e ignora las siguientes condiciones.
+		else if (numero == 0) { //Si la condiciÃ³n anterior no se cumpliÃ³, se evalÃºa esta condiciÃ³n, de ser correcta imprime su contenido e ignora las siguientes condiciones.
 			System.out.println("El numero es 0");
 		}
-		else { //Si ninguna condición se cumplio se imprime el contenido del else.
+		else { //Si ninguna condiciÃ³n se cumplio se imprime el contenido del else.
 			System.out.println("El numero es positivo");
 		}
 	}

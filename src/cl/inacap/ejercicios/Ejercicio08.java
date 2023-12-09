@@ -7,16 +7,16 @@ public class Ejercicio08 {
 		int segundos = Integer.parseInt(sc.nextLine()); //Se lee un int.
 		int minutos = (segundos/60); //Se almacena la cantidad de minutos en un int.
 		int segundosFaltantes = 0;
-		if (segundos%60 != 0) { //Se evalúa la condición
-			while (segundos%60 != 0) { //Se repite mientras se cumpla la condición.
+		if (segundos%60 != 0) { //Se evalÃºa la condiciÃ³n
+			while (segundos%60 != 0) { //Se repite mientras se cumpla la condiciÃ³n.
 				segundos++;
 				segundosFaltantes++;
 			}
 		}
 		else {
 			segundosFaltantes = 60;
-			System.out.println("Los segundos que introdujiste generan " + minutos + " minutos exactos"); //Si no se cumplió la condición, se ejecuta el código.
+			System.out.println("Los segundos que introdujiste generan " + minutos + " minutos exactos"); //Si no se cumpliÃ³ la condiciÃ³n, se ejecuta el cÃ³digo.
 		}
-		System.out.println("Faltan " + segundosFaltantes + " segundos para convertirse en exactamente " + (minutos+1) + " minutos"); //Se imprime en consola la concatenación.
+		System.out.println("Faltan " + segundosFaltantes + " segundos para convertirse en exactamente " + (minutos + 1) + " minutos"); //Se imprime en consola la concatenaciÃ³n.
 	}
 }

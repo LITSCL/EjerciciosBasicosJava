@@ -9,21 +9,21 @@ public class Ejercicio11 {
 		System.out.println("Ingrese el segundo numero"); //Se imprime en pantalla.
 		int numero2 = Integer.parseInt(sc.nextLine()); //Se lee un String y se convierte a int.
 		
-		System.out.println("Los numeros que estan entre " + numero1 + " y " + numero2); //Se imprime en pantalla la concatenaci髇.
+		System.out.println("Los numeros que estan entre " + numero1 + " y " + numero2); //Se imprime en pantalla la concatenaci贸n.
 		int contador = 0;
-		if (numero1<numero2) { //Se eval鷄 la condici髇.
+		if (numero1 < numero2) { //Se eval煤a la condici贸n.
 			for (int i = (numero1 + 1); i < numero2; i++) { //Se declara el bucle for.
 				System.out.println(i);
 				contador++;
 			}
-			System.out.println("La cantidad de numeros que hay entre " + numero1 + " y " + numero2 + " son: " + contador + " numeros"); //Una vez fuera del bucle se imprime esta concatenaci髇.
+			System.out.println("La cantidad de numeros que hay entre " + numero1 + " y " + numero2 + " son: " + contador + " numeros"); //Una vez fuera del bucle se imprime esta concatenaci贸n.
 		}
 		else {
 			for (int i = (numero2 + 1); i < numero1; i++) { //Se declara el bucle for.
 				System.out.println(i);
 				contador++;
 			}
-			System.out.println("La cantidad de numeros que hay entre " + numero1 + " y " + numero2 + " son: " + contador + " numeros"); //Una vez fuera del bucle se imprime esta concatenaci髇.
+			System.out.println("La cantidad de numeros que hay entre " + numero1 + " y " + numero2 + " son: " + contador + " numeros"); //Una vez fuera del bucle se imprime esta concatenaci贸n.
 		}
 		
 	}
