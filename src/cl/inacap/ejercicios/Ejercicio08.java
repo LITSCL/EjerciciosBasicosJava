@@ -7,8 +7,8 @@ public class Ejercicio08 {
 		int segundos = Integer.parseInt(sc.nextLine()); //Se lee un int.
 		int minutos = (segundos/60); //Se almacena la cantidad de minutos en un int.
 		int segundosFaltantes = 0;
-		if (segundos%60 != 0) { //Se evalúa la condición
-			while (segundos%60 != 0) { //Se repite mientras se cumpla la condición.
+		if (segundos % 60 != 0) { //Se evalúa la condición
+			while (segundos % 60 != 0) { //Se repite mientras se cumpla la condición.
 				segundos++;
 				segundosFaltantes++;
 			}
