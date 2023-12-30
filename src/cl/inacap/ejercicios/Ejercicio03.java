@@ -1,5 +1,7 @@
 package cl.inacap.ejercicios;
+
 import java.util.Scanner; //Se importa la clase Scanner.
+
 public class Ejercicio03 {
 	static Scanner sc = new Scanner(System.in); //Se crea un objeto de tipo Scanner para poder leer datos.
 	public static void main(String[] args) {
@@ -18,7 +20,5 @@ public class Ejercicio03 {
 		else {
 			System.out.println("Ambos numeros son iguales"); //Si ninguna condición se cumplio se imprime el contenido del else.
 		}
-
 	}
-
 }

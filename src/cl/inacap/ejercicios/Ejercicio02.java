@@ -1,5 +1,7 @@
 package cl.inacap.ejercicios;
+
 import java.util.Scanner; //Se importa la clase Scanner.
+
 public class Ejercicio02 {
 	static Scanner sc = new Scanner(System.in); //Se crea un objeto de tipo Scanner para poder leer datos.
 	public static void main(String[] args) {
@@ -16,5 +18,4 @@ public class Ejercicio02 {
 		
 		System.out.println("El promedio del alumno es: " + (evaluacion1 * 0.15 + evaluacion2 * 0.20 + evaluacion3 * 0.25 + evaluacion4 * 0.40)); //Aca se calcula el promedio de notas.
 	}
-
 }

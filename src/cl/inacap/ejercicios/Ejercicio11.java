@@ -1,5 +1,7 @@
 package cl.inacap.ejercicios;
+
 import java.util.Scanner; //Se importa la clase Scanner.
+
 public class Ejercicio11 {
 	static Scanner sc = new Scanner(System.in);  //Se crea un objeto de tipo Scanner para poder leer datos.
 	public static void main(String[] args) {
@@ -25,7 +27,5 @@ public class Ejercicio11 {
 			}
 			System.out.println("La cantidad de numeros que hay entre " + numero1 + " y " + numero2 + " son: " + contador + " numeros"); //Una vez fuera del bucle se imprime esta concatenación.
 		}
-		
 	}
-
 }

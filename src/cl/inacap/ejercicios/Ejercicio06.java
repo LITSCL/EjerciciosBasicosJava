@@ -1,5 +1,7 @@
 package cl.inacap.ejercicios;
+
 import java.util.Scanner; //Se importa la clase Scanner.
+
 public class Ejercicio06 {
 	static Scanner sc = new Scanner(System.in); //Se crea un objeto de tipo Scanner para poder leer datos.
 	public static void main(String[] args) {
@@ -17,5 +19,4 @@ public class Ejercicio06 {
 		
 		System.out.println("El precio de la venta con el IVA incluido es: " + precioVenta); //Se imprime en consola la concatenación.
 	}
-
 }

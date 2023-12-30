@@ -1,5 +1,7 @@
 package cl.inacap.ejercicios;
+
 import java.util.Scanner; //Se importa la clase Scanner.
+
 public class Ejercicio04 {
 	static Scanner sc = new Scanner(System.in); //Se crea un objeto de tipo Scanner para poder leer datos.
 	public static void main(String[] args) {
@@ -13,7 +15,5 @@ public class Ejercicio04 {
 		else {
 			System.out.println("El precio final de la venta con el iva es: " + precioVenta * 1.19);
 		}
-		
 	}
-
 }
